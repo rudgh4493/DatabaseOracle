@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03F1FEA4-69E4-2B66-3871-C70350A69A75" name="Address">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:08:19 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="addrID" id="C0858FFD-5427-6A28-F85B-D72F6A0EDFA3">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:16:23 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2E16483E-40FE-47AD-05B6-EB80B13255C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>999999999</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="branchName" id="4E9BA674-D5EA-F89E-0D30-7FE0EBF8945D">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:09:47 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="6671373A-31DC-BF27-B76D-35042DD29C1C">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:08:30 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gu" id="A90B5828-BA6B-7F3D-E48A-24147D61FA61">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:08:57 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dong" id="4A5CF021-FB6A-BD81-9716-8166C74FCB6D">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:09:07 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="detail" id="10926734-4D8B-CD5C-B714-B4E35C030EF5">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:09:18 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="studioName" id="DF256696-5AC9-8DB4-4CE5-2E241575773E">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:18:16 UTC</createdTime>
+<generatorID>493EE10C-59E0-07D5-8C19-710D1961A0E1</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2A42DEBF-F7A0-B62C-0C0D-E42EC34C4DF4</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="execNo" id="7F3DDF5B-A45F-0134-1499-2C74DB334E01">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:22:03 UTC</createdTime>
+<generatorID>B43483B5-57AA-3730-B6FF-0DA3139FDB78</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>075CE183-C73F-B7B0-D2A6-3AAF7980C462</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<domain>2E16483E-40FE-47AD-05B6-EB80B13255C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>999999999</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="starName" id="5B80D788-7DA1-1903-606C-C504F66556EE">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:32:32 UTC</createdTime>
+<generatorID>CF53FBC2-EA70-26C4-B182-114C596BDBA5</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C7B6115B-A077-2764-8F12-343CABC51AB8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F3B84AAA-B83C-998F-2817-0B09E7FAE5A0" name="Address PK">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:11:31 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0858FFD-5427-6A28-F85B-D72F6A0EDFA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

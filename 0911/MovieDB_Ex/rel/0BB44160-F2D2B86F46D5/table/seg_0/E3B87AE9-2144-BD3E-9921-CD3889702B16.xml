@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3B87AE9-2144-BD3E-9921-CD3889702B16" name="MovieStar">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>638A60B7-B20C-309B-4EF7-65C4049253B5</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="BD094FFC-3538-DF47-C4F3-BEA9C511626B">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>C7B6115B-A077-2764-8F12-343CABC51AB8</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="CA33B39D-86B1-FE2D-000B-FD1FBEC52E25">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>FCB0FA68-52F1-53F8-47CB-60DF9D357A89</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BB610733-694B-135E-BA79-9E21F81F4819</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="E68460A8-5D68-D44E-6282-D61E620A3004">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>15CA3EE2-FF81-0BF1-CE80-E4A7819F23CF</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>18509F1A-F79E-595F-1C29-41177C469CD1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birthdate" id="C2CABF1E-70AC-6302-8CC0-BB8B8F4AA5A8">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>E56D9152-9871-52D2-2A7E-F3077F109BD0</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>278C1086-8127-CBBA-2D85-C56F325DBF56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="spouse" id="06EC0FE9-BDA3-AF7D-0F84-D9A6DDCB8B92">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>179F0DFD-73A8-9045-65CF-E6CA990CB913</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<domain>2E16483E-40FE-47AD-05B6-EB80B13255C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD4B4E4A-5046-6C98-51F2-A3E0ECCE0D53" referredColumn="E535CE4E-7E7B-399C-ACCB-C504A6867BBB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="803B653A-23A6-88C8-B2E7-91F8DA514A90" name="MovieStar_PK">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>6BA891B8-AFCA-0B0D-9C7C-B5594A67A928</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD094FFC-3538-DF47-C4F3-BEA9C511626B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DA3483C-A05D-E12A-216A-1CDFE115C389" name="MovieStar__IDX">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>02B5F114-D4E6-31EF-84E6-60EBCBB8FF02</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="06EC0FE9-BDA3-AF7D-0F84-D9A6DDCB8B92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40480F00-ECE2-6FB2-5CF0-092022C82273" name="Married">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>02B5F114-D4E6-31EF-84E6-60EBCBB8FF02</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06EC0FE9-BDA3-AF7D-0F84-D9A6DDCB8B92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="638A60B7-B20C-309B-4EF7-65C4049253B5" name="MovieStar">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 05:24:15 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="C7B6115B-A077-2764-8F12-343CABC51AB8">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 05:24:27 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="FCB0FA68-52F1-53F8-47CB-60DF9D357A89">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 05:24:39 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BB610733-694B-135E-BA79-9E21F81F4819</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender" id="15CA3EE2-FF81-0BF1-CE80-E4A7819F23CF">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 05:24:52 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>18509F1A-F79E-595F-1C29-41177C469CD1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birthdate" id="E56D9152-9871-52D2-2A7E-F3077F109BD0">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 05:25:00 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>278C1086-8127-CBBA-2D85-C56F325DBF56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="spouse" id="179F0DFD-73A8-9045-65CF-E6CA990CB913">
+<createdBy>shhong</createdBy>
+<createdTime>2024-09-11 01:33:02 UTC</createdTime>
+<generatorID>02B5F114-D4E6-31EF-84E6-60EBCBB8FF02</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>075CE183-C73F-B7B0-D2A6-3AAF7980C462</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<domain>2E16483E-40FE-47AD-05B6-EB80B13255C8</domain>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6BA891B8-AFCA-0B0D-9C7C-B5594A67A928" name="MovieStar PK">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 05:24:36 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C7B6115B-A077-2764-8F12-343CABC51AB8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

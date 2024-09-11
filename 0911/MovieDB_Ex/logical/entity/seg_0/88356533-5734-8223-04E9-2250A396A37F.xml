@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88356533-5734-8223-04E9-2250A396A37F" name="Studio">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 05:08:50 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="2A42DEBF-F7A0-B62C-0C0D-E42EC34C4DF4">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 05:09:09 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="presNo" id="39C59A39-0B99-6B9A-434F-9859D7F86F9E">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 05:45:21 UTC</createdTime>
+<generatorID>E02DD558-59CF-C066-FEE5-7946EA286DF3</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>075CE183-C73F-B7B0-D2A6-3AAF7980C462</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<domain>2E16483E-40FE-47AD-05B6-EB80B13255C8</domain>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phoneNo" id="FC52B24C-E488-9ACB-1E4F-6EC15E0C7017">
+<createdBy>shhong</createdBy>
+<createdTime>2024-09-11 01:07:15 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DD8B124E-99AC-688E-82A8-FE935816E32E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15A005F8-162C-FA02-154C-7831C5E62FBF" name="Studio PK">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 05:09:25 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2A42DEBF-F7A0-B62C-0C0D-E42EC34C4DF4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20F27912-A6BE-416B-6C63-7C24AFDF984B" name="Address">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:41:08 UTC</createdTime>
+<generatorID>03F1FEA4-69E4-2B66-3871-C70350A69A75</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="addrID" id="D42D13A5-A84F-8B03-794B-B420DCD5760A">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:41:08 UTC</createdTime>
+<generatorID>C0858FFD-5427-6A28-F85B-D72F6A0EDFA3</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2E16483E-40FE-47AD-05B6-EB80B13255C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>999999999</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="branchName" id="0873236E-418C-C018-49FC-BB1D5663A2AE">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:41:08 UTC</createdTime>
+<generatorID>4E9BA674-D5EA-F89E-0D30-7FE0EBF8945D</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="65E69257-6358-A247-A9E7-FD76981C2625">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:41:08 UTC</createdTime>
+<generatorID>6671373A-31DC-BF27-B76D-35042DD29C1C</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gu" id="8449CF1B-65F8-28EB-3D21-BE4057BD32CC">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:41:08 UTC</createdTime>
+<generatorID>A90B5828-BA6B-7F3D-E48A-24147D61FA61</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dong" id="889802C5-91F0-0536-FEA9-B803D6944C29">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:41:08 UTC</createdTime>
+<generatorID>4A5CF021-FB6A-BD81-9716-8166C74FCB6D</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="detail" id="1B8CE316-4790-75DA-4B59-6423C952B89B">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:41:08 UTC</createdTime>
+<generatorID>10926734-4D8B-CD5C-B714-B4E35C030EF5</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="studioName" id="484EA371-40CA-C01C-BDC3-ED7C110BE47D">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:41:08 UTC</createdTime>
+<generatorID>DF256696-5AC9-8DB4-4CE5-2E241575773E</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F643B7C-1B28-9B4A-E492-C7CE4D3EEC86" referredColumn="8720727F-5EC6-DCB3-FED8-52247F93CAC1"/>
+</associations>
+</Column>
+<Column name="execNo" id="5CE8A2B7-D42B-C2AC-1F73-0BBC88026016">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:41:08 UTC</createdTime>
+<generatorID>7F3DDF5B-A45F-0134-1499-2C74DB334E01</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<domain>2E16483E-40FE-47AD-05B6-EB80B13255C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>999999999</endValue>
+</rangeDef>
+</listOfRanges>
+<associations>
+<colAssociation fkAssociation="C53D932D-A299-B8F4-9829-E46D71D37BEF" referredColumn="E535CE4E-7E7B-399C-ACCB-C504A6867BBB"/>
+</associations>
+</Column>
+<Column name="starName" id="C4DC9810-DA79-1D1B-B12D-8414AFD08FCA">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:41:08 UTC</createdTime>
+<generatorID>5B80D788-7DA1-1903-606C-C504F66556EE</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDDEEB93-A12A-FB20-4B2D-7156185AF9E0" referredColumn="BD094FFC-3538-DF47-C4F3-BEA9C511626B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99B64B81-92B9-3622-25FF-645A38C90CC0" name="Address_PK">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:41:08 UTC</createdTime>
+<generatorID>F3B84AAA-B83C-998F-2817-0B09E7FAE5A0</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D42D13A5-A84F-8B03-794B-B420DCD5760A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBE44810-37DB-7644-E7C1-F11577528A60" name="AddressOf">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:41:08 UTC</createdTime>
+<generatorID>B43483B5-57AA-3730-B6FF-0DA3139FDB78</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CE8A2B7-D42B-C2AC-1F73-0BBC88026016"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D818C8F-AF02-EFAF-1ABD-80CC8B1B7829" name="officeOf">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:41:08 UTC</createdTime>
+<generatorID>493EE10C-59E0-07D5-8C19-710D1961A0E1</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="484EA371-40CA-C01C-BDC3-ED7C110BE47D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A46CCF9E-D51C-DFCD-5D03-E90FAD53B2C4" name="star_address_of">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:41:08 UTC</createdTime>
+<generatorID>CF53FBC2-EA70-26C4-B182-114C596BDBA5</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4DC9810-DA79-1D1B-B12D-8414AFD08FCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

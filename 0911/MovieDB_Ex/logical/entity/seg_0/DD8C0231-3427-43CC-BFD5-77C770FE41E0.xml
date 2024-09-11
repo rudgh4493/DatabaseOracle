@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD8C0231-3427-43CC-BFD5-77C770FE41E0" name="Cartoon">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 06:32:35 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="title" id="88CE5C93-7041-C929-B13C-43BDC9859E72">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 06:33:17 UTC</createdTime>
+<generatorID>33F6CFDF-12CA-C20E-C4C1-0BE1A7E10319</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<referedAttribute>806273C7-BABB-5AF2-BE0E-336EDBEEC728</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>98C19AC1-764F-2D3E-D17F-1F95D35C8621</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year" id="39BA941C-4D66-FEA4-A63C-CF663E6FD60F">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 06:33:17 UTC</createdTime>
+<generatorID>33F6CFDF-12CA-C20E-C4C1-0BE1A7E10319</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<referedAttribute>4CF9570D-7EB9-401B-BB9C-07602AAF86C4</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>02DA88D4-047B-A84A-4A09-09D993E63408</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1920</beginValue>
+<endValue>2024</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1EDEBC0C-F497-3F63-11C7-8B84ABB91C44" name="Cartoon PK">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 06:34:33 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88CE5C93-7041-C929-B13C-43BDC9859E72</attributeRef>
+<attributeRef>39BA941C-4D66-FEA4-A63C-CF663E6FD60F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

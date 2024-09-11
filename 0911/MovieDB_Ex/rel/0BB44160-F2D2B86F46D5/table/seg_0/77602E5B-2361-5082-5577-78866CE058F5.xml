@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77602E5B-2361-5082-5577-78866CE058F5" name="Studio">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>88356533-5734-8223-04E9-2250A396A37F</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="8720727F-5EC6-DCB3-FED8-52247F93CAC1">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>2A42DEBF-F7A0-B62C-0C0D-E42EC34C4DF4</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>05661700-5CBB-4582-4FC8-8C9A3E524F8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="0E13E0ED-FFE9-7951-F34C-DCB61F6E2AD8">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>E93C647E-D47A-30CA-7B30-AFE99B515F72</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BB610733-694B-135E-BA79-9E21F81F4819</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="presNo" id="52B88C01-33A5-C9B1-FED3-FF68241A85F5">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>39C59A39-0B99-6B9A-434F-9859D7F86F9E</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<domain>2E16483E-40FE-47AD-05B6-EB80B13255C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1DE89F6-19F4-55F5-CE05-2C0BB7E7BADE" referredColumn="E535CE4E-7E7B-399C-ACCB-C504A6867BBB"/>
+</associations>
+</Column>
+<Column name="phoneNo" id="75D63BD2-27E7-36BB-D3A1-62FB826EEC95">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>FC52B24C-E488-9ACB-1E4F-6EC15E0C7017</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DD8B124E-99AC-688E-82A8-FE935816E32E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C7E438F-F556-40F3-7DA7-C972840BDD9D" name="Studio_PK">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>15A005F8-162C-FA02-154C-7831C5E62FBF</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8720727F-5EC6-DCB3-FED8-52247F93CAC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="020D3C5A-80D5-3555-F91A-F323C3913BA6" name="Studio__IDX">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E02DD558-59CF-C066-FEE5-7946EA286DF3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="52B88C01-33A5-C9B1-FED3-FF68241A85F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="880F1814-31E0-2313-7295-B2011A5B0C3D" name="Runs">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:41 UTC</createdTime>
+<generatorID>E02DD558-59CF-C066-FEE5-7946EA286DF3</generatorID>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52B88C01-33A5-C9B1-FED3-FF68241A85F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

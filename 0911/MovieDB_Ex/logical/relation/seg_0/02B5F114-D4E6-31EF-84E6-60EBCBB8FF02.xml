@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Married" directorySegmentName="seg_0" id="02B5F114-D4E6-31EF-84E6-60EBCBB8FF02">
+<createdBy>shhong</createdBy>
+<createdTime>2024-09-11 01:32:11 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<engineerTo>
+<item key="0BB44160-0F62-19F3-651F-F2D2B86F46D5" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>6BA891B8-AFCA-0B0D-9C7C-B5594A67A928</sourcePk>
+<targetPk>7E5E50DA-55F2-A4D6-65A0-24EA587B37F0</targetPk>
+<dominantRole>98EAE47D-E74B-B7AE-AF4E-84B58A5FC1C9</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>638A60B7-B20C-309B-4EF7-65C4049253B5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>98EAE47D-E74B-B7AE-AF4E-84B58A5FC1C9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="MovieDB">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="yr_dom" id="02DA88D4-047B-A84A-4A09-09D993E63408">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 04:45:07 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>4</dataTypePrecision>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1920</beginValue>
+<endValue>2024</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="name_dom" id="05661700-5CBB-4582-4FC8-8C9A3E524F8E">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 05:02:42 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="money_dom" id="0A64D851-7C35-B3E7-E0EC-1CC293E6F0FD">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:06:06 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>20</dataTypePrecision>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="gender_dom" id="18509F1A-F79E-595F-1C29-41177C469CD1">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 05:04:00 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>6</dataTypeSize>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="female" description=""/>
+<valueDef value="male" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="birth_dom" id="278C1086-8127-CBBA-2D85-C56F325DBF56">
+<createdBy>shhong</createdBy>
+<createdTime>2024-09-10 13:26:00 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12c" definition="%COLUMN%  &gt; date  &apos;1900-01-01&apos; and %COLUMN% &lt; date  &apos;2020-12-31&apos;"/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="no_dom" id="2E16483E-40FE-47AD-05B6-EB80B13255C8">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 05:04:17 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>999999999</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="incolor_dom" id="758FB58A-52E1-2BB9-FDFF-164BE7C42E87">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 04:54:16 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1</dataTypeSize>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="F" description=""/>
+<valueDef value="T" description=""/>
+<valueDef value="f" description=""/>
+<valueDef value="t" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="tit_dom" id="98C19AC1-764F-2D3E-D17F-1F95D35C8621">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 04:42:50 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100</dataTypeSize>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="len_dom" id="B617DEF6-6093-A689-A425-727A37BFBA4A">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 05:01:32 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>3</dataTypePrecision>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>50</beginValue>
+<endValue>300</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="addr_dom" id="BB610733-694B-135E-BA79-9E21F81F4819">
+<createdBy>shhon</createdBy>
+<createdTime>2024-09-04 05:03:14 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>200</dataTypeSize>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="pno_dom" id="DD8B124E-99AC-688E-82A8-FE935816E32E">
+<createdBy>shhong</createdBy>
+<createdTime>2024-09-11 01:05:12 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>13</dataTypeSize>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12c" definition="%COLUMN% like &apos;010-____-____&apos;"/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="phoneno_dom" id="F6485E4A-637C-027F-483E-841C2DAF09CB">
+<createdBy>626-16</createdBy>
+<createdTime>2024-09-11 04:59:44 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>13</dataTypeSize>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12c" definition="%COLUMN% like &apos;010-____-____&apos;"/>
+</checkConstraint>
+</Domain>
+</domains>
+</DomainFile>
