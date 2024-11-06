@@ -1,0 +1,15 @@
+declare
+    sql_ins varchar2(200) := 'insert into movieexec values (:1,:2,:3,:4)';
+    max_cno movieexec.certno%type;
+
+begin
+    select max(certno) into max_cno from movieexec;
+    max_cno := max_cno +1;
+    for i in 1..10 loop
+        execute immediate sql_ins using 
+            '홍길동_'||max_cno, get_addr(null), max_cno, 
+            trunc(dbms_random.value(1000000,10000000000));
+        max_cno := max_cno +1;
+    end loop;
+
+end;
