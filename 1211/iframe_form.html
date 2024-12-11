@@ -1,0 +1,21 @@
+<html> 
+<head> 
+<title>Searching Movie Table</title> 
+</head> 
+<body> 
+<h2>
+Searching Movie Table
+</h2>
+<br>
+<form method="get" action="movies_check.php" target="iframe_a"> 
+Title : <input type="text" size="20" maxlength="50" name="title"><br>
+Year : <input type="number" min="1920" max="2023" size="4" maxlength="4" name="year"><br> 
+studio : <input type="text" size="8" maxlength="20" name="studio"><br> 
+filmType : <input type="radio" id="incolor1"  name="incolor" value="f"><label for="incolor1">BW</label> 
+<input type="radio" id="incolr2" name="incolor" value="t" checked="checked"><label for="incolor2">COL</label>
+<br>
+<input type="submit" value="검색">
+<input type="reset" value="다시">
+</form>
+<br>
+<iframe height="80%" width="100%" name="iframe_a"  style="border:1px solid blue;"></iframe>
